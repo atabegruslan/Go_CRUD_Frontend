@@ -1,3 +1,5 @@
+This is the frontend part of https://github.com/atabegruslan/beegoing
+
 # Install
 
 - Install Go
