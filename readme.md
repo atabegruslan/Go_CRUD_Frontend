@@ -28,6 +28,9 @@ https://www.youtube.com/playlist?list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX
 - https://beego.me/docs/quickstart/new.md 
 - https://github.com/astaxie/build-web-application-with-golang
 - https://beego.me/docs/examples/
+- https://blog.golang.org/json-and-go
+- https://beego.me/docs/mvc/view/view.md
+- https://beego.me/docs/mvc/controller/params.md
 
 ## HTTP Request library
 
