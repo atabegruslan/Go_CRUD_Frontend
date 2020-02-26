@@ -3,9 +3,9 @@ package models
 // var PlaceList *Places
 
 type Place struct {
-	id    int64  
-	title string 
-	body  string   
+	Id    int64  
+	Title string 
+	Body  string   
 }
 
 // type Places struct {

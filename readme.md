@@ -31,8 +31,5 @@ https://www.youtube.com/playlist?list=PLQVvvaa0QuDeF3hP0wQoSxpkqgRcgxMqX
 - https://blog.golang.org/json-and-go
 - https://beego.me/docs/mvc/view/view.md
 - https://beego.me/docs/mvc/controller/params.md
-
-## HTTP Request library
-
-- https://beego.me/docs/module/httplib.md
-	- `go get github.com/astaxie/beego/httplib`
+- https://beego.me/docs/mvc/controller/logs.md
+- https://beego.me/docs/module/httplib.md (Not used, in favor of "net/http")
