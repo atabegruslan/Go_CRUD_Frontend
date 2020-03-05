@@ -52,7 +52,6 @@ func (this *PlaceController) GetPlace() {
 func (this *PlaceController) UpdatePlace() {
 	id := this.Ctx.Input.Param(":id")
 	beego.Info("Place to be updated has an ID of: ", id)
-	// intid, _ := strconv.ParseInt(id, 10, 64)
 
 	place := models.Place{}
     this.ParseForm(&place)
@@ -65,10 +64,14 @@ func (this *PlaceController) UpdatePlace() {
 
     client := &http.Client{}
     client.Do(req)
-
-	this.Redirect("/place", 302)
 }
 
 func (this *PlaceController) DeletePlace() {
+	id := this.Ctx.Input.Param(":id")
+	beego.Info("Place to be deleted has an ID of: ", id)
 
+    req, _ := http.NewRequest("DELETE", "http://localhost:8082/v1/places/" + id, nil)
+
+    client := &http.Client{}
+    client.Do(req)
 }
