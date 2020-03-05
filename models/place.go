@@ -4,8 +4,8 @@ package models
 
 type Place struct {
 	Id    int64  
-	Title string 
-	Body  string   
+	Name string 
+	Review  string   
 }
 
 // type Places struct {
