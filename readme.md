@@ -1,4 +1,4 @@
-This is the frontend part of https://github.com/atabegruslan/beegoing
+This is the frontend part of https://github.com/atabegruslan/Go_CRUD_API
 
 # Install
 
